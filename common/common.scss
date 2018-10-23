@@ -2155,7 +2155,7 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 @if $dark_background_overlay == "true" {
   body:before {
     background: black;
-    opacity: 0.7;
+    opacity: 0;
     z-index: 0;
   }
 
