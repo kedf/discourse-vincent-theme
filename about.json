@@ -5,6 +5,8 @@
    "assets": {
         "vincent-background": "assets/vincent-background.svg",
         "bg-forum": "assets/bg-forum.jpg"
+        "bg-forum3": "assets/bg-forum3.jpg"
+        "bg-forum4": "assets/bg-forum4.jpg"
    },
    "color_schemes": {
        "Vincent Dark": {
