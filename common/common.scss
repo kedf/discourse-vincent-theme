@@ -1,5 +1,10 @@
 // functions  --------------------------------------------------------------------------------
-
+.outer-div {
+     text-align: center;
+}
+.inner-div {
+     display: inline-block;
+}
 // Calculate brightness value
 @function brightness($color) {
   @return (red($color) + green($color) + blue($color)) / (255 * 3);
@@ -1323,6 +1328,10 @@ blockquote {
 
 // TESTS --------------------------------------------------------------------------------------
 
+.center-logo-head {
+     margin: 0 auto;
+     width: 100px; 
+}
 .container.show-badge {
   background: $main-background;
   padding: 2em;
@@ -2322,3 +2331,4 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
     border-radius: 10px;
   }
 }
+    
