@@ -1253,7 +1253,10 @@ header.d-header.clearfix {
 
 .d-header .contents {
     padding: 8px;
-    margin: 8px;
+    margin-top: -3px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
     background-color: #131418;
 }
 
