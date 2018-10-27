@@ -1,3 +1,4 @@
+
 // functions  --------------------------------------------------------------------------------
 .outer-div {
      text-align: center;
@@ -1247,9 +1248,19 @@ a {
 }
 
 header.d-header.clearfix {
-  border-bottom: 1px solid #555555;
+  /*border-bottom: 1px solid #555555;*/
 }
 
+.d-header .contents {
+    padding: 8px;
+    margin: 0px;
+    background-color: #131418;
+}
+
+.d-header {
+    background-color: transparent;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0);
+}	
 .menu-panel.drop-down {
   border-bottom: 1px solid #555555;
 }
@@ -1764,6 +1775,7 @@ section.post-actions:empty {
   background-color: $header_background;
   border-top: 1px solid #555;
 }
+
 
 .admin-contents.dashboard tbody {
   background: rgba(255, 255, 255, 0.1);
@@ -2331,4 +2343,3 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
     border-radius: 10px;
   }
 }
-    
