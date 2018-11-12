@@ -906,7 +906,7 @@ section.post-menu-area {
 }
 
 .embedded-posts.top {
-  width: 690px;
+  width: 1110px;
 }
 
 .wrap {
@@ -1857,7 +1857,7 @@ html.desktop-view.not-mobile-device {
     flex: 1;
   }
   .topic-body {
-    max-width: 690px;
+    max-width: 1110px;
   }
   .embedded-posts .topic-body {
     width: 100%;
@@ -2034,7 +2034,7 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 }
 
 #topic-title .title-wrapper {
-  width: 690px;
+  width: 1110px;
 }
 
 #suggested-topics {
@@ -2048,7 +2048,7 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 
 .topic-post {
   width: 100%;
-  max-width: 690px;
+  max-width: 1110px;
 }
 
 .post-actions {
@@ -2100,7 +2100,7 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 }
 
 .posts-wrapper {
-  width: 690px;
+  width: 1110px;
   margin: 0 auto;
   max-width: 100%;
 }
