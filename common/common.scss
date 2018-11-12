@@ -2025,6 +2025,9 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
     margin-left: 1250px;
   }
 }
+.timeline-controls {
+	background: rgba(0,0,0,0.5);
+}
 
 .topic-map .buttons .btn {
   box-shadow: none;
