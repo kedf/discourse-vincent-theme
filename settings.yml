@@ -1,5 +1,5 @@
 theme_background:
-  default: "#{$bg-forum3}"
+  default: "#{$bg-forum3opti}"
   description:
     en: If you wish to change the default background add the url of the new background above.
 dark_background_overlay:
