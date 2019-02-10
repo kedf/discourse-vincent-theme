@@ -30,3 +30,19 @@
     {{category-notifications-button value=category.notification_level category=category}}
   {{/if}}
 </script>
+<script>
+// tooltip options
+var wowhead_tooltips = {
+	'colorlinks': true,
+	'iconizelinks': true,
+	'renamelinks': true,
+};
+try{
+    // update tooltips
+    if(typeof $WowheadPower == 'undefined'){
+    	$.getScript('//wow.zamimg.com/widgets/power.js');
+    } else {
+    	$WowheadPower.refreshLinks();
+    }
+} finally {}
+</script>
